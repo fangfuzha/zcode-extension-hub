@@ -1,6 +1,6 @@
 {
   "name": "deepwiki",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "DeepWiki MCP server with API key support — AI-generated documentation and Q&A about any GitHub repository.",
   "author": {
     "name": "ZCode Extension Hub"
