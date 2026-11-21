@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "devin": {
+      "type": "http",
+      "url": "https://mcp.devin.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}",
+        "X-Org-Id": "${user_config.org_id}"
+      },
+      "timeoutMs": 120000
+    }
+  }
+}

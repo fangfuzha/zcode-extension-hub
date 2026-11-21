@@ -8,7 +8,8 @@ A local ZCode plugin marketplace. The repository root is the marketplace root:
 | Plugin | Description |
 |---|---|
 | [context7](plugins/context7) | Context7 MCP server with built-in OAuth — current library/framework documentation for the agent. |
-| [deepwiki](plugins/deepwiki) | DeepWiki MCP server with API key support — AI-generated documentation and Q&A about any GitHub repository. |
+| [deepwiki](plugins/deepwiki) | DeepWiki MCP server for public GitHub repositories — AI-generated documentation and Q&A, no authentication. |
+| [devin](plugins/devin) | Devin MCP server with API key authentication — private repository wikis, wiki generation and the organization-wide `devin_*` tools. |
 
 ## Using this marketplace in ZCode
 
@@ -43,6 +44,10 @@ plugins/
     skills/context7/SKILL.md      # skill: workflow + auth troubleshooting
   deepwiki/
     .zcode-plugin/plugin.json     # plugin manifest
+    .mcp.json                     # MCP server definition (HTTP, anonymous)
+    skills/deepwiki/SKILL.md      # skill: workflow + troubleshooting
+  devin/
+    .zcode-plugin/plugin.json     # plugin manifest
     .mcp.json                     # MCP server definition (HTTP, API key headers)
-    skills/deepwiki/SKILL.md      # skill: workflow + auth troubleshooting
+    skills/devin/SKILL.md         # skill: workflow + auth/organization notes
 ```

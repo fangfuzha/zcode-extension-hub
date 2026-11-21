@@ -19,13 +19,27 @@
       "name": "deepwiki",
       "source": "./plugins/deepwiki",
       "version": "0.2.0",
-      "description": "DeepWiki MCP server with API key support — AI-generated documentation and Q&A about any GitHub repository.",
+      "description": "DeepWiki MCP server for public GitHub repositories — AI-generated documentation and Q&A, no authentication required.",
       "displayName": "DeepWiki",
       "displayName_i18n": {
         "zh-CN": "DeepWiki 仓库文档"
       },
       "description_i18n": {
-        "zh-CN": "支持 API Key 认证的 DeepWiki MCP 服务，提供任意 GitHub 仓库的 AI 生成文档与问答。"
+        "zh-CN": "面向公开 GitHub 仓库的 DeepWiki MCP 服务，提供 AI 生成的文档与问答，无需认证。"
+      },
+      "category": "developer-tools"
+    },
+    {
+      "name": "devin",
+      "source": "./plugins/devin",
+      "version": "0.2.0",
+      "description": "Devin MCP server with API key authentication — private repository wikis, wiki generation and the organization-wide devin_* tools.",
+      "displayName": "Devin",
+      "displayName_i18n": {
+        "zh-CN": "Devin 私有模式"
+      },
+      "description_i18n": {
+        "zh-CN": "支持 API Key 认证的 Devin MCP 服务：私有仓库文档、Wiki 生成以及组织级 devin_* 工具。"
       },
       "category": "developer-tools"
     }

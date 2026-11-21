@@ -1,0 +1,24 @@
+{
+  "name": "devin",
+  "version": "0.2.0",
+  "description": "Devin MCP server with API key authentication — private repository wikis, wiki generation and the organization-wide devin_* tools.",
+  "author": {
+    "name": "ZCode Extension Hub"
+  },
+  "license": "MIT",
+  "skills": "skills",
+  "mcpServers": "./.mcp.json",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "default": "",
+      "sensitive": true,
+      "description": "Devin API key, sent as the Authorization: Bearer header. Required for this server. Create one at https://app.devin.ai/settings/api-keys."
+    },
+    "org_id": {
+      "type": "string",
+      "default": "",
+      "description": "Optional Devin organization id, sent as the X-Org-Id header. It selects the organization that the devin_* tools act in; without it the server resolves the first organization the key belongs to."
+    }
+  }
+}
