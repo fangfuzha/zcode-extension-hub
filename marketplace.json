@@ -1,0 +1,33 @@
+{
+  "name": "zcode-extension-hub",
+  "plugins": [
+    {
+      "name": "context7",
+      "source": "./plugins/context7",
+      "version": "0.1.0",
+      "description": "Context7 MCP server with OAuth — up-to-date library and framework documentation for the agent.",
+      "displayName": "Context7",
+      "displayName_i18n": {
+        "zh-CN": "Context7 文档助手"
+      },
+      "description_i18n": {
+        "zh-CN": "内置 OAuth 授权的 Context7 MCP 服务，为智能体提供最新的库与框架文档。"
+      },
+      "category": "developer-tools"
+    },
+    {
+      "name": "deepwiki",
+      "source": "./plugins/deepwiki",
+      "version": "0.1.0",
+      "description": "DeepWiki MCP server with API key support — AI-generated documentation and Q&A about any GitHub repository.",
+      "displayName": "DeepWiki",
+      "displayName_i18n": {
+        "zh-CN": "DeepWiki 仓库文档"
+      },
+      "description_i18n": {
+        "zh-CN": "支持 API Key 认证的 DeepWiki MCP 服务，提供任意 GitHub 仓库的 AI 生成文档与问答。"
+      },
+      "category": "developer-tools"
+    }
+  ]
+}

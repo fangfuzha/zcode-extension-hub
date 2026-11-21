@@ -1,0 +1,11 @@
+{
+  "name": "context7",
+  "version": "0.1.0",
+  "description": "Context7 MCP server with OAuth — up-to-date library and framework documentation for the agent.",
+  "author": {
+    "name": "ZCode Extension Hub"
+  },
+  "license": "MIT",
+  "skills": "skills",
+  "mcpServers": "./.mcp.json"
+}
